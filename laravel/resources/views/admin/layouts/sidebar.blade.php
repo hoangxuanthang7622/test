@@ -27,22 +27,22 @@
               <div class="menu-title">Quản lí thể loại</div>
             </a>
             <ul>
-              <li> <a href=""><i class="bi bi-arrow-right-short"></i>Thể loại</a>
+              <li> <a href="{{route('category.index')}}"><i class="bi bi-arrow-right-short"></i>Thể loại</a>
               </li>
-              
+
             </ul>
           </li>
           <li>
             <a href="javascript:;" class="has-arrow">
               <div class="parent-icon"><i class="bi bi-grid"></i>
               </div>
-              <div class="menu-title">Quản lí sản phẩm</div>
+              <div class="menu-title">Quản lí bài viết</div>
             </a>
             <ul>
-              <li> <a href=""><i class="bi bi-arrow-right-short"></i>Sản phẩm</a>
+              <li> <a href="{{route('post.index')}}"><i class="bi bi-arrow-right-short"></i>Bài viết</a>
               </li>
 
-            </ul>
+            </ul>   
           </li>
 
 
@@ -54,17 +54,6 @@
             </a>
             <ul>
               <li> <a href=""><i class="bi bi-arrow-right-short"></i>Nhân viên</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="javascript:;" class="has-arrow">
-              <div class="parent-icon"><i class="bi bi-share"></i>
-              </div>
-              <div class="menu-title">Quản lí chức vụ</div>
-            </a>
-            <ul>
-              <li> <a href=""><i class="bi bi-arrow-right-short"></i>Chức vụ</a>
               </li>
             </ul>
           </li>

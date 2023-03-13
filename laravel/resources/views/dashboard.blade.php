@@ -9,10 +9,9 @@
                       <div class="card-body">
                           <div class="d-flex align-items-center">
                               <div>
-                                  <p class="mb-0 text-secondary">Tổng đơn hàng</p>
-                                  <h4 class="my-1">{{ $totalOrders }}</h4>
-                                  <p class="mb-0 font-13 text-success"><i class="bi bi-caret-up-fill"></i>tăng 5% từ tuần
-                                      trước</p>
+                                  <p class="mb-0 text-secondary"></p>
+                                  <h4 class="my-1"></h4>
+                                  <p class="mb-0 font-13 text-success"><i class="bi bi-caret-up-fill"></i></p>
                               </div>
                               <div class="widget-icon-large bg-gradient-purple text-white ms-auto"><i
                                       class="bi bi-basket2-fill"></i>
@@ -26,9 +25,9 @@
                       <div class="card-body">
                           <div class="d-flex align-items-center">
                               <div>
-                                  <p class="mb-0 text-secondary">Doanh thu</p>
+                                  <p class="mb-0 text-secondary"></p>
 
-                                  <h4 class="my-1">{{ number_format($totalPrice) }}Đ</h4>
+                                  <h4 class="my-1"></h4>
                                   <p class="mb-0 font-13 text-success"><i class="bi bi-caret-up-fill"></i>Tăng 4.6 từ tuần
                                       trước</p>
                               </div>
@@ -45,7 +44,7 @@
                           <div class="d-flex align-items-center">
                               <div>
                                   <p class="mb-0 text-secondary">Khách hàng</p>
-                                  <h4 class="my-1">{{ $totalCustomer }}</h4>
+                                  <h4 class="my-1"></h4>
                                   <p class="mb-0 font-13 text-success"><i class="bi bi-caret-up-fill"></i> Tăng 1 từ tuần
                                       trước</p>
                               </div>
@@ -62,7 +61,7 @@
                           <div class="d-flex align-items-center">
                               <div>
                                   <p class="mb-0 text-secondary">Nhân viên</p>
-                                  <h4 class="my-1">{{ $totalUsers }}</h4>
+                                  <h4 class="my-1"></h4>
                                   <p class="mb-0 font-13 text-success"><i class="bi bi-caret-up-fill"></i> Tăng 1 từ tuần
                                       trước</p>
                               </div>
@@ -124,7 +123,7 @@
                   </div>
               </div>
           </div>
-          
+
           <div class="card radius-10">
               <div class="card-header bg-transparent">
                   <div class="row g-3 align-items-center">
